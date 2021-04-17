@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    background-image: url("../img/background2.png");
+    padding-left: 20%;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    width: 80%;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: darkgray;
+}
+table {
+    border: 1px solid black;
+    border-spacing: 3px;
+}
+table tr th {
+    width: 100px;
+    background-color: burlywood;
+}
+table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+.work {
+    background-color: rgba(13, 122, 212, 0.801);
+}
+.biology {
+    background-color: rgb(92, 238, 243);
+}
+.phylosophy {
+    background-color: rgb(235, 193, 116);
+}
+.networking {
+    background-color: rgb(197, 153, 233);
+}
+.programming {
+    background-color: rgb(131, 238, 167);
+}
+ul li {
+    font-weight: bold;
+}
+ul li div{
+    font-weight: normal;
+    display: inline;
+}
+
+.poem {
+    text-align: center;
+}
+.centered {
+    background-color: cornsilk;
+    float: none;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.top {
+    text-align: center;
+}
